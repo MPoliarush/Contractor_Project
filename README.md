@@ -11,7 +11,7 @@ Project has 5 breakpoint view:
 - min-width 576px;
 - min-width 768px;
 - min-width 992px;
-- min-width 1280px;
+- min-width 1280px;\
 \
 **3) JS features**\
 
