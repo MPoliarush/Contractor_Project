@@ -4,6 +4,7 @@ https://mpoliarush.github.io/Contractor_Project/
 **1) About**\
 Project based on initial Figma template size (1440px).
 All further breakpoint's designs and animation were implemented by developer.
+Current project is landing page.
 
 **2) Breakpoints**\
 Project has 5 breakpoint views:
