@@ -15,7 +15,7 @@ Project has 5 breakpoint views:
 
 
 **3) JS features**\
-JS features were implemented to navigation bar(max-width 575px),"Past Project" slider section and "Testimonials" slider section.\
+JS features were implemented to navigation bar(max-width 575px),"Past Project" slider section and "Testimonials" slider section.
 
 a) navigation bar:
   - nav bar transforms into burger menu;
