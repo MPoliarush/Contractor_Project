@@ -15,32 +15,32 @@
 <body>
   
   <main>
-    <div class="first_page">
+    <div id='first_page'class="first_page">
       <nav>
           <div id ="burger" class="burger">
             <iconify-icon inline icon="ci:hamburger" width="30" heigth="30"></iconify-icon>
           </div>
           <ul>
               <li >
-                <a href="#">Home</a>
+                <a href="#first_page">Home</a>
               </li>
               <li >
-                <a href="#">About</a>
+                <a href="#second_page">About</a>
               </li>
               <li >
-                <a href="#">Blog</a>
+                <a href="#past_projects">Projects</a>
               </li>
               <li >
-                <a href="#">Pages</a>
+                <a href="#blog">Blog</a>
               </li>
               <li>
-                  <a  href="#" >Contacts</a>
+                  <a  href="#footer" >Contacts</a>
                 </li>
               <li >
-                  <a  href="#">Cart</a>
+                  <a  href="https://www.google.com/maps">Card</a>
               </li>
               <li class="li_last-child">
-                  <a  href="#">Get quote</a>
+                  <a  href="https://www.google.com.ua">Get quote</a>
               </li>
           </ul> 
       </nav>
@@ -49,13 +49,13 @@
         <h1>We provide effective contracting services</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit dolor sit varius rhoncus, nullam pulvinar ut sollicitudin dictumst porttitor porttitor quis quisque erat.</p>
         <div class="buttons_container">
-          <button>Get a quote</button>
-          <button>Our services</button>
+          <button><a href="https://www.google.com.ua" class="btn">Get a quote</a></button>
+          <button><a href="https://www.google.com.ua" class="btn">Our services</a></button>
         </div>
       </div>
     </div>
     
-    <div class="second_page">
+    <div id="second_page" class="second_page">
       <img src="2.png" alt="men">
       <div class="second_page_text">
         <span class="about_span">/ABOUT US</span>
@@ -83,8 +83,8 @@
       <span class="about_span">/Our services</span>
       <h3>A comprehensive set of services</h3>
       <div class="third_page_buttons">
-        <button>Get a quote</button>
-        <button>Browse services</button>
+        <button><a href="https://www.google.com.ua" class="btn">Get a quote</a>
+        <button><a href="https://www.google.com.ua" class="btn">Browse services</a></button>
       </div>
 
       <div class="cards_block">
@@ -132,8 +132,9 @@
         <h3>Ready to pull the trigger?<br> Get a quote today.</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit dolor sit varius rhoncus, nullam pulvinar ut sollicitudin dictumst porttitor porttitor quis.</p>
         <div class="four_page_buttons">
-          <button>Get a quote</button>
-          <button>Browse services</button>
+          <button><a href="https://www.google.com.ua" class="btn">Get a quote</a>
+          <button><a href="https://www.google.com.ua" class="btn">Browse services</a>
+          
         </div>
       </div> 
     </div>
@@ -162,15 +163,16 @@
       </div>
     </div>
 
-    <div class="past_projects">
+    <div id='past_projects' class="past_projects">
        <div class="heading"> 
           <div class="text_block_past_project">
             <span>/PAST PROJECTS</span>
             <h3>Our project results speak for themselves</h3>
           </div> 
           <div class="buttons">
-            <button>Get a quote</button>
-            <button>Browse services</button>
+            <button><a href="https://www.google.com.ua" class="btn">Get a quote</a></button>
+            <button><a href="https://www.google.com.ua" class="btn">Browse services</a></button>
+            
           </div> 
       </div>
     </div>
@@ -197,9 +199,9 @@
     </div>
 
     <div class="slider_item">
-      <button id="slider_item_back" class="slider_item_back"></button>
-      <button id="slider_item_forth" class="slider_item_forth active_slider"></button>
-      
+      <button id="slider_item_first" class="active_slider"></button>
+      <button id="slider_item_second" class=""></button>
+      <button id="slider_item_third" class="slider_item_third"></button>
     </div>
 
     <div class="testimonials">
@@ -209,8 +211,8 @@
            <h3>What our clients say about us and our work</h3>
          </div> 
          <div class="testimonials_slider_item">
-          <button id ='testimonials_slider_item_back' class=""></button>
-          <button id ='testimonials_slider_item_forth' class="active_slider"></button>
+          <button id ='testimonials_slider_item_back' class="active_slider"></button>
+          <button id ='testimonials_slider_item_forth' class=""></button>
         </div>
       </div>
     </div>
@@ -247,13 +249,13 @@
       </div>
     </div>
 
-    <div class="past_projects blog">
+    <div id='blog'class="past_projects blog">
       <div class="heading"> 
          <div class="text_block">
            <span>/Blog</span>
            <h3>Acrticles & News</h3>
          </div>
-         <button class="past_projects_blog_button">Browse acticles</button>
+         <button><a href="https://www.google.com.ua" class="btn">Browse acticles</a></button>
     </div>
 
     <div class="articles_cards">
@@ -291,7 +293,7 @@
     </div>
 
     </div>    
-    <footer>
+    <footer id="footer">
       <div class="footer_content">
         <div class="footer_div">
           <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
