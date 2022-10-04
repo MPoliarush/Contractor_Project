@@ -11,8 +11,12 @@ Project has 5 breakpoint view:
 - min-width 576px;
 - min-width 768px;
 - min-width 992px;
-- min-width 1280px;\
+- min-width 1280px;
 
 
 **3) JS features**\
+JS features were implemented to navigation bar(max-width 575px),"Past Project" slider section and "Testimonials" slider section.\
+a) navigation bar:
+  - nav bar transforms into burger menu;
+  - burger allows to open nav bar and after closes it;
 
