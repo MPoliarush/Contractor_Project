@@ -1,11 +1,11 @@
 # Contractor_Project
 https://mpoliarush.github.io/Contractor_Project/
 
-**1) About**
+**1) About**\
 Project based on initial Figma template size (1440px).
 All further breakpoint's design's and animation were implemented by developer.
 
-**2) Breakpoints**
+**2) Breakpoints**\
 Project has 5 breakpoint view:
 - max-width 575px;
 - min-width 576px;
