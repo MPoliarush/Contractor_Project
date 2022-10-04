@@ -21,6 +21,7 @@ a) navigation bar:
   - nav bar transforms into burger menu;
   - burger allows to open nav bar and after closes it;
   - links are smooth anchors to appropriate section on the website;\
+
 b) "Past Project" slider section and "Testimonials" slider section:
   - at min-width 992px and min-width 1280px slider represented by active navigation squares;
   - at min-width 576px and min-width 768px slider transforms to non-touchable circles. Scrolling is available by "touchmove" on the screen. Circles just represent current slider position;
