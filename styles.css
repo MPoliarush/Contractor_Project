@@ -61,7 +61,6 @@ html{
 		background-size: cover;
 		background-position: center;
 		width: 100%;
-		
 		margin: 0;
 		
 	}
@@ -1768,7 +1767,7 @@ margin: 0;
 	padding: 10px;
 	width: 200px;
 	display: flex;
-	align-items: center;
+	
 }
 
 
@@ -2611,7 +2610,7 @@ margin: 0;
 .contact_us_div{
 	border:solid #FF4D01;
 	padding: 10px;
-	width: 140px;
+	width: 160px;
 	display: flex;
 	align-items: center;
 }
@@ -3444,7 +3443,7 @@ margin: 0;
 .contact_us_div_text{
 	display: block;
 	height: 40px;
-	margin-left: 30px;
+	margin-left: 50px;
 }
 
 .inconify{
@@ -4248,7 +4247,7 @@ margin: 0;
 	display: block;
 	height: 40px;
 	align-items: center;
-
+	margin-left: 80px;
 }
 
 .inconify{
